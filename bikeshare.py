@@ -147,6 +147,7 @@ def user_stats(df, city):
     print("Gender:\n")
     print(df['Gender'].value_counts())
     print("\n")
+    print("\n")
 
     min_birth_year = df['Birth Year'].min()
     max_birth_year = df['Birth Year'].max()
@@ -161,6 +162,8 @@ def user_stats(df, city):
 
 
 def show_rows(df):
+    """Optionally show the first 5 rows"""
+
     show_rows = input("Would you like to see the first 5 rows, yes or no? \n")
     if show_rows == 'yes':
         print(df.head())
