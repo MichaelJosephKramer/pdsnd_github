@@ -5,7 +5,7 @@
 Bikeshare
 
 ### Description
-This project provides some statisical analysis of the bikeshare csv files
+This project provides some statistical analysis of the bikeshare csv files
 
 ### Files used
 bikeshare.py
