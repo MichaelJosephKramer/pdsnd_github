@@ -147,6 +147,7 @@ def user_stats(df, city):
     print("Gender:\n")
     print(df['Gender'].value_counts())
     print("\n")
+    print("\n")
 
     min_birth_year = df['Birth Year'].min()
     max_birth_year = df['Birth Year'].max()
