@@ -10,8 +10,8 @@ This project provides some statistical analysis of the bikeshare csv files
 ### Files used
 bikeshare.py
 chicago.csv
-washington.csv
 new_york_city.csv
+washington.csv
 
 ### Credits
 Forked from udacity/pdsnd_github
